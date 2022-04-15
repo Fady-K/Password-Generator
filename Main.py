@@ -2,7 +2,7 @@
 # Author: Fady Kamal Ibrahim
 # Program Description: This Program will Help To Generate A Password of a Particular Length, In Addition To Giving The user Ability To Determine the Types Of Letters To Be Included In The Password
 # Last Modification Date: 4/13/2022
-# Purpose: Trying To Help People Struggling With Franco Letters
+# Purpose: Trying To Help People Trying To Generate Strong Password
 ################################################################
 import random
 import string
