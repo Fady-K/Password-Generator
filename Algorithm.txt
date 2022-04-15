@@ -1,6 +1,6 @@
 ######################
 CALL Display()
-    To display two options (Generate_Password, Exit), AfterThough it returns user
+    To display two options to user (Generate_Password, Exit), AfterThough it returns user Choice
 WHILE Program_running (True):
     IF choice == 1:
         CALL Take_input()
