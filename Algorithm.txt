@@ -1,0 +1,32 @@
+######################
+CALL Display()
+    To display two options (Generate_Password, Exit), AfterThough it returns user
+WHILE Program_running (True):
+    IF choice == 1:
+        CALL Take_input()
+            READ the password length and validate it
+            Ask User Whether Big, Small, Special Letters or Nums Included in The Generated Password or not
+        CALL Password_Generate(ABC.Upper, ABC.Lower, Special_char, Nums)
+            For each element in range(0, Password_Length)
+                IF Big_Letters Included:
+                    Chose Random Letter From ABC.Upper And Append
+                IF Small_Letters Included:
+                    Chose Random Letter From ABC.Lower And Append
+                IF Special_Letters Included:
+                    Chose Random Letter From Special Chars And Append
+                IF Nums Included:
+                    Chose Random Letter From Nums_list And Append
+            EndFor
+            CALL shuffle_()
+                TO Shuffle Generated Password To Get Rid of Any Patterns
+            Print Generated Password
+            CLEAR The Password Incase User Didn't Terminate Program
+    ELSE IF choice == 2:
+        SET Program_running = False
+        BREAK
+    ELSE
+        PRINT("invalid")
+    ENDIF
+    display() >> Again
+EndWhile
+
